@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_work"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/assignMentFragment"
+        android:icon="@drawable/ic_assignment"
+        android:title="@string/assign_ment" />
+    <item
+        android:id="@+id/usingCarFragment"
+        android:icon="@drawable/ic_car"
+        android:title="@string/usingcar" />
+    <item
+        android:id="@+id/planEngineerFragment"
+        android:icon="@drawable/ic_engineer_plan"
+        android:title="@string/plan_engineer" />
+
+    <item
+        android:id="@+id/getPonoPoFragment"
+        android:icon="@drawable/ic_dashboard_getpo_an_nopo"
+        android:title="PO" />
+
+</menu>

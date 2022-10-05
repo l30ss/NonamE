@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.fuji.noname.fragments.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/Account"
+        android:name="com.fuji.noname.fragments.AccounTFragment"
+        android:label="fragment_acoun_t"
+        tools:layout="@layout/fragment_acoun_t" />
+    <fragment
+        android:id="@+id/assignMentFragment"
+        android:name="com.fuji.noname.fragments.AssignMentFragment"
+        android:label="fragment_assign_ment"
+        tools:layout="@layout/fragment_assign_ment" />
+    <fragment
+        android:id="@+id/getPonoPoFragment"
+        android:name="com.fuji.noname.fragments.GetPonoPoFragment"
+        android:label="fragment_get_pono_po"
+        tools:layout="@layout/fragment_get_pono_po" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.fuji.noname.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/myWorkFragment"
+        android:name="com.fuji.noname.fragments.MyWorkFragment"
+        android:label="fragment_my_work"
+        tools:layout="@layout/fragment_my_work" />
+    <fragment
+        android:id="@+id/notificaTionFragment"
+        android:name="com.fuji.noname.fragments.NotificaTionFragment"
+        android:label="fragment_notifica_tion"
+        tools:layout="@layout/fragment_notifica_tion" />
+    <fragment
+        android:id="@+id/planEngineerFragment"
+        android:name="com.fuji.noname.fragments.PlanEngineerFragment"
+        android:label="fragment_plan_engineer"
+        tools:layout="@layout/fragment_plan_engineer" />
+    <fragment
+        android:id="@+id/setTingFragment"
+        android:name="com.fuji.noname.fragments.SetTingFragment"
+        android:label="fragment_set_ting"
+        tools:layout="@layout/fragment_set_ting" />
+    <fragment
+        android:id="@+id/usingCarFragment"
+        android:name="com.fuji.noname.fragments.UsingCarFragment"
+        android:label="fragment_usesing_car"
+        tools:layout="@layout/fragment_usesing_car" />
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Account"
+        android:icon="@drawable/person"
+        android:title="Account" />
+    <item
+        android:id="@+id/myWorkFragment"
+        android:icon="@drawable/ic_mywork"
+        android:title="My Work" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_about"
+        android:title="About" />
+    <item
+        android:id="@+id/setTingFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Setting" />
+    <item
+        android:id="@+id/Logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/notificaTionFragment"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/notification" />
+
+
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NonamE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">็Home</string>
+    <string name="assign_ment">Assign Ment</string>
+    <string name="usingcar">UsingCar</string>
+    <string name="plan_engineer">Plan Engineer</string>
+    <string name="notification">Notification</string>
+    <string name="forgot_password">forgot_password</string>
+</resources>
